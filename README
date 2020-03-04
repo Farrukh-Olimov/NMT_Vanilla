@@ -1,2 +1,14 @@
 This is vanilla neural machine translation architecture based on 'Learning Phrase Representation using RNN Encoder-Decoder for SMT'
 
+Details: 
+
+Vocablary limit         : 12.000 words 
+Sentence Length limit   : 50 words  
+Embedding dimensionts   : 300 dims 
+English Embedding       : GLOVE 300d
+Russian Embedding       : Self-trained 300d
+
+
+
+Sentences are fitted in reverse order to minimize 'minimal time lag' 
+
